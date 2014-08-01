@@ -1,25 +1,42 @@
+#header {
+    background : WhiteSmoke;
+}
+
+#footer {
+    background : WhiteSmoke;
+}
+
 h1 {
-    font-size : 3em;   /* 48px */
-    line-height : 1;   /* 48px */
+    font-size : 3.8rem;   /* 48px */
+    line-height : 1.3;   /* 48px */
     margin-bottom: 0.5em;   /* 24px */
 }
 
 h2 {
-    font-size : 2em;   /* 36px */
+    font-size : 3rem;   /* 36px */
     line-height : 1.3333;   /* 48px */
     margin-bottom: 0.6667em;   /* 24px */
 }
 
+
+.col-sm-3{
+    background : DarkOrange;
+}
+.box{
+    height : 40rem;
+}
+
 html {
-    font-size : 60%; 
+    font-size : 62.5%;
+    height : 100%;
 }
 
 @media screen and (min-width : 400px){
-    html{ font-size : 100%;} 
+    html{ font-size : 100%}
 }
  
 @media screen and (min-width : 768px){
-    html{ font-size : 45%;} 
+    html{ font-size : 45%} 
 }
 
 @media screen and (min-width : 992px){
@@ -27,38 +44,7 @@ html {
 }
  
 @media screen and (min-width : 1200px) {
-    html{ font-size : 70%}; 
+    html{ font-size : 70%}
 }
 
 
-.Grid {
-	margin-left: -1em;
-	overflow: auto;
-}
-
-.Grid-col {
-	width: 100%;
-	padding-left: 1em;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-}
-
-@media (min-width: 500px) {
-	.Grid--demo .Grid-col {
-		width: 50%;
-	}
-}
-
-@media (min-width: 800px) {
-	.Grid--demo .Grid-col {
-		width: 25%;
-	}
-}
-
-.Grid p {
-	padding: 1em;
-	margin: 0 0 1em;
-	background-color: #add8e6;
-}
