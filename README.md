@@ -1,0 +1,1 @@
+http://kindle-rankings.herokuapp.com/
