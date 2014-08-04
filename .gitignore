@@ -1,0 +1,6 @@
+*~
+.git
+.DS_Store
+search_amazon_abort.py
+secret.py
+rootkey.csv
